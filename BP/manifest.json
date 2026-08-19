@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§bCustom NPC Quest System",
+    "description": "Sistem NPC Quest Giver untuk Story Map. | Version Log: [1.0.5] Custom Menu Item; [1.0.6] Fix Item Icon Schema",
+    "uuid": "a7c3e1f0-5b2d-4a8e-9f1c-6d3b7e0a2f4c",
+    "version": [1, 0, 6],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b8d4f2a1-6c3e-5b9f-0a2d-7e4c8f1b3a5d",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c9e5a3b2-7d4f-6c0a-1b3e-8f5d9a2c4b6e",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ]
+}

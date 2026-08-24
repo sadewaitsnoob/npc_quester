@@ -74,8 +74,8 @@ Meskipun sistem berfokus pada UI, ada beberapa jalan pintas yang bisa digunakan 
 | `/scriptevent npc:admin` | Admin | Membuka Panel Admin Induk (Akses Cepat ke Builder & Tracker). |
 | `/scriptevent npc:builder` | Admin | Membuka *Quest Builder* secara langsung. |
 | `/scriptevent npc:spawn` | Admin | Memunculkan entitas NPC di titik pijakanmu saat ini. |
-| `/scriptevent npc:tracker` | Semua Player | Alternatif manual untuk melihat Quest aktif (jika tidak mau pakai item buku). |
-| `/scriptevent npc:help` | Semua Player | Membaca panduan singkat di kolom chat. |
+| `/scriptevent npc:tracker` | Admin / OP | Alternatif manual melihat Quest aktif (Pemain biasa menggunakan **Item Menu**). |
+| `/scriptevent npc:help` | Admin / OP | Menampilkan panduan di kolom chat (Pemain biasa melihatnya dari **Item Menu**). |
 
 ---
 

@@ -2,9 +2,9 @@
   "format_version": 2,
   "header": {
     "name": "§bCustom NPC Quest System",
-    "description": "Sistem NPC Quest Giver untuk Story Map. | Version Log: [1.0.5] Custom Menu Item; [1.0.6] Fix Item Icon Schema",
+    "description": "Sistem NPC Quest Giver untuk Story Map. | Version Log: [1.0.7] Fix UI Button Bug; [1.0.8] Fix Location Quest Tracking",
     "uuid": "a7c3e1f0-5b2d-4a8e-9f1c-6d3b7e0a2f4c",
-    "version": [1, 0, 6],
+    "version": [1, 0, 8],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [

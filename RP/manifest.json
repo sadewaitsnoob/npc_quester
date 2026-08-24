@@ -2,9 +2,9 @@
   "format_version": 2,
   "header": {
     "name": "§bCustom NPC Quest System — RP",
-    "description": "Resource Pack untuk Custom NPC Quest System. | Version Log: [1.0.5] Custom Menu Item; [1.0.6] Fix Item Icon Schema",
+    "description": "Resource Pack untuk Custom NPC Quest System. | Version Log: [1.0.7] Fix UI Button Bug; [1.0.8] Fix Location Quest Tracking",
     "uuid": "d0f6b4c3-8e5a-7d1b-2c4f-9a6e0b3d5c7f",
-    "version": [1, 0, 6],
+    "version": [1, 0, 8],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [

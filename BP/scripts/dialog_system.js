@@ -226,7 +226,7 @@ async function showQuestDetails(player, npcEntity, npcData, questId, quest, play
         .button2("§lNanti Saja");
 
     const res = await form.show(player);
-    if (res.selection === 1) {
+    if (res.selection === 0) {
         playerData.activeQuests[questId] = {
             npcId:    npcEntity.id,
             progress: 0,

@@ -75,13 +75,16 @@ async function createNewQuest(player) {
 
     const questId = db.generateQuestId();
 
+    const objType = OBJECTIVE_KEYS[res.formValues[2]];
+    const forceCountOne = (objType === "go_to_location" || objType === "talk_to");
+
     const questData = {
         id:            questId,
         title:         res.formValues[0] || "Quest Tanpa Judul",
         description:   res.formValues[1] || "Tidak ada deskripsi.",
-        objectiveType: OBJECTIVE_KEYS[res.formValues[2]],
+        objectiveType: objType,
         target:        res.formValues[3] || "",
-        targetCount:   res.formValues[4] || 1,
+        targetCount:   forceCountOne ? 1 : (res.formValues[4] || 1),
         rewards: {
             items: res.formValues[5]
                 ? [{ itemId: res.formValues[5], amount: res.formValues[6] || 1 }]
@@ -232,7 +235,7 @@ async function selectQuestToDelete(player) {
         .button2("§lBatal");
 
     const confirmRes = await confirm.show(player);
-    if (confirmRes.selection === 1) {
+    if (confirmRes.selection === 0) {
         // Hapus quest dari registry utama
         db.deleteQuest(selectedId);
 

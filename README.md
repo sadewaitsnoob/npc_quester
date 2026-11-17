@@ -1,6 +1,6 @@
-# 🗡️ Custom NPC Quest System (Minecraft Bedrock Add-On)
+# 🗡️ Custom NPC Quest System (Minecraft Bedrock Add-On) (On Progress)
 
-Sistem pembuatan Quest dan Manajemen NPC tercanggih untuk Minecraft Bedrock Edition (versi 1.21.0+). Seluruh manajemen sistem dirancang agar bisa kamu kendalikan 100% dari dalam game menggunakan **Graphical User Interface (GUI)**—tanpa perlu repot menyentuh baris kode (coding) sama sekali!
+Sistem pembuatan Quest dan Manajemen NPC tercanggih untuk Minecraft Bedrock Edition (versi 1.21.0+ - 26.62). Seluruh manajemen sistem dirancang agar bisa kamu kendalikan 100% dari dalam game menggunakan **Graphical User Interface (GUI)**—tanpa perlu repot menyentuh baris kode (coding) sama sekali!
 
 Sangat cocok digunakan untuk pembuatan **Story Map**, **RPG Realm**, maupun **Survival Server** yang ingin memiliki alur cerita dan misi interaktif.
 
